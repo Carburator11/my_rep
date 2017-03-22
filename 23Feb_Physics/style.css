@@ -1,0 +1,129 @@
+*{margin:0;padding:0;background: white}
+
+.header{
+    height : 80px;
+    background: white
+}
+
+.rightMenu{
+  height: 65px;
+  width : 40%;
+  position:absolute;;
+  top:15px;
+  left:60%;
+  background: white;
+    border-radius: 5px;
+}
+
+.rightTitle{
+  color: #333333;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.rightBox{
+  width:40px;
+  height:40px;
+  margin: auto;
+  background: url('art/reload.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity:0.5;
+}
+
+.rightBox:hover{opacity:1.0}
+
+
+.iconMenu{
+  background: url('art/menu.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 35px;
+  width : 35px;
+  top: 15px;
+  left: 5%;
+  position: fixed;
+}
+
+
+
+.playScreen{
+  width:300px;
+  height: 300px;
+  margin: 10px auto 5px auto;
+}
+
+.elem{
+  width:15px;
+  height:15px;
+  left: 0px;
+  top : 0px;
+  border: 2px solid #6a778c;
+  border-radius: 100%;
+  background: #6a778c;
+  position:relative;
+}
+
+.red{background: red}
+
+.green{background: green}
+
+.sideBar{
+    height: 280px;
+    width: 180px;
+    position:absolute;
+    top:90px;
+    display:none;
+}
+
+.show{display:initial;
+      }
+
+.sideBar li{
+
+  color:  red;
+  border: 1px solid red;
+  height: 30px;
+  width:  130px;
+  border-radius: 5px;
+  background: white;
+  list-style-type:none;
+}
+.sideBar ul{
+  background: white;
+  margin: 10px 0 0 10px;
+}
+
+.bottom{text-align: center;}
+
+.log{
+  height: 25px;
+  width : 300px;
+  border-radius: 5px;
+  display:inline-block;
+  margin: 0 auto 5px auto;
+
+}
+
+.btn{
+  height: 40px;
+  width : 40px;
+  border-radius: 5px;
+  display:inline-block;
+  background: #6a778c;
+  color: white;
+  margin: auto;
+  line-height: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.btn:hover{
+    box-shadow: 2px 2px 5px black;
+    font-weight: bold;
+}
+.clear{
+  clear:both;
+}

@@ -1,0 +1,123 @@
+*{margin:0;padding:0;background: #d7dde5}
+
+html, body{
+    height:100%;
+    font-family: Verdana, Geneva, sans-serif;}
+
+.header{height : 5%;
+    width : 100%;
+    margin:auto;
+    background: white}
+
+.leftSidePanel{
+  width:15%;
+  background: #315159;
+  height:90%;
+  display: inline-block;
+ vertical-align:top;
+}
+
+.main{ width:74%;
+  background:inherit;
+  height:90%;
+  display: inline-block;
+  vertical-align: middle;
+  overflow-y:auto;
+}
+
+.titleMain{
+  margin: 30px auto 30px 60px;
+  background:inherit;
+  height: 5%;
+  width: 60%;
+  text-align: left;
+  border: 1px dashed gray;}
+
+.choosePicBox{
+  width:150px;
+  height: 350px;
+  margin: 0 20px 30px 60px;
+  background: white;
+  border: 1px solid gray;
+  display: inline-block;}
+
+.picBox{
+  width:450px;
+  height: 350px;
+  margin: 0 auto 30px auto;
+  background: white;
+  border: 3px dashed gray;
+  border-radius: 5px;
+  display: inline-block;}
+
+
+
+.main ul, li{margin-left: 60px;}
+.main ul {font-size: 24px; font-weight: bold;}
+.main li {font-size: 14px; font-weight: normal;}
+
+#Q_one {border: 3px solid yellow;
+        background: white;
+        width: 630px;
+        vertical-align: top;
+        font-size: 12px;
+        font-weight: normal;
+        background: white;
+        margin-bottom: 15px;}
+
+.main input{margin:0;padding:0}
+
+
+.blox{
+  border: 1px dashed #426296;
+  display: inline-block;
+  width: 200px;
+  border: 2px dotted blue;
+  vertical-align: top;
+}
+
+.blox2{
+  border: 1px dashed #426296;
+  display: inline-block;
+  width: 400px;
+  border: 2px dotted green;
+  background: #3ed1c0;
+  vertical-align: top;
+  height:283px;
+ }
+
+ .single, .multiple, .free{
+   background: inherit;
+   text-align: center;
+   line-height: 90px;
+ }
+
+ .multiple{}
+
+.free{}
+
+.bloxCell {height : 90px ;
+            text-align: center;
+            line-height: 90px;
+            background: #3ed1c0;
+            border: 2px dotted yellow;}
+
+#Q_two, #Q_three, #Q_four{display: none;}
+
+
+
+
+.rightSidePanel{
+  width:10%;
+  background: #315159;
+  height:90%;
+  display: inline-block;
+ vertical-align:top;
+}
+
+.downPanel{
+  height:5%;
+  width: 100%;
+  background: black;
+
+}
